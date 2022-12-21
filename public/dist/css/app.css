@@ -10276,8 +10276,8 @@ html body{
     background-color: rgb(var(--color-darkmode-400) / 0.7);
 }
 .report-box .report-box__icon {
-        width: 28px;
-        height: 28px;
+        width: 43px;
+        height: 43px;
     }
 .report-box .report-box__indicator {
         padding-top: 3px;
@@ -18907,3 +18907,4 @@ html body{
         color: rgb(var(--color-success) / var(--tw-text-opacity));
     }
 }
+

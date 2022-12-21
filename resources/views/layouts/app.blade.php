@@ -14,7 +14,7 @@
     <meta name="author" content="LEFT4CODE">
     <title>Dashboard - Midone - Tailwind HTML Admin Template</title>
     <!-- BEGIN: CSS Assets-->
-    <link rel="stylesheet" href="dist/css/app.css"  />
+    <link rel="stylesheet" href="dist/css/app.css" />
 
     @vite(['resource/css/app.css', 'resource/js/app.js'])
     @stack('style')
@@ -52,7 +52,7 @@
             // colors: colors,
             plotOptions: {
                 bar: {
-                    columnWidth: '45%',
+                    columnWidth: '35%',
                     distributed: true,
                 }
             },
@@ -64,15 +64,16 @@
             },
             xaxis: {
                 categories: [
-                    ['HAPPY WEDDING','INDAH', 'ZULKARNAIN'],
-                    ['Joe', 'Smith'],
-                    ['Jake', 'Williams'],
-                    'Amber',
-                    ['Peter', 'Brown'],
-                    ['Mary', 'Evans'],
-                    ['David', 'Wilson'],
-                    ['Lily', 'Roberts'],
+                    ['Januari'],
+                    ['Februari'],
+                    ['Maret'],
+                    ['April'],
+                    ['Mei'],
+                    ['Juni'],
+                    ['Juli'],
+                    ['Agustus'],
                 ],
+
                 labels: {
                     style: {
                         // colors: colors,
@@ -84,6 +85,28 @@
         var chart = new ApexCharts(document.querySelector("#chart"), options);
         chart.render();
     </script>
+
+    <script>
+        var options = {
+            series: [70],
+            chart: {
+                height: 350,
+                type: 'radialBar',
+            },
+            plotOptions: {
+                radialBar: {
+                    hollow: {
+                        size: '70%',
+                    }
+                },
+            },
+            labels: ['Realisasi Anggaran'],
+        };
+
+        var chart = new ApexCharts(document.querySelector("#realisasi"), options);
+        chart.render();
+    </script>
+
 </body>
 
 </html>

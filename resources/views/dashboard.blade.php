@@ -21,125 +21,78 @@
                                 </svg> Reload Data </a>
                         </div>
                         <div class="grid grid-cols-12 gap-6 mt-5">
-                            <div class="col-span-12 sm:col-span-6 xl:col-span-3 intro-y">
+                            <div class="col-span-12 sm:col-span-6 xl:col-span-4 intro-y">
                                 <div class="report-box zoom-in">
-                                    <div class="box p-5">
-                                        <div class="flex">
+                                    <div class="intro-y">
+                                        <div class="box h-32 px-4 py-4 mb-3 flex items-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" icon-name="shopping-cart"
-                                                data-lucide="shopping-cart"
-                                                class="lucide lucide-shopping-cart report-box__icon text-primary">
-                                                <circle cx="9" cy="21" r="1"></circle>
-                                                <circle cx="20" cy="21" r="1"></circle>
-                                                <path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6">
-                                                </path>
-                                            </svg>
-                                            <div class="ml-auto">
-                                                <div class="report-box__indicator bg-success tooltip cursor-pointer"> 33%
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                        icon-name="chevron-up" data-lucide="chevron-up"
-                                                        class="lucide lucide-chevron-up w-4 h-4 ml-0.5">
-                                                        <polyline points="18 15 12 9 6 15"></polyline>
-                                                    </svg>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="text-3xl font-medium leading-8 mt-6">4.710</div>
-                                        <div class="text-base text-slate-500 mt-1">Item Sales</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-span-12 sm:col-span-6 xl:col-span-3 intro-y">
-                                <div class="report-box zoom-in">
-                                    <div class="box p-5">
-                                        <div class="flex">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" icon-name="credit-card"
-                                                data-lucide="credit-card"
-                                                class="lucide lucide-credit-card report-box__icon text-pending">
+                                                viewBox="0 0 24 24" fill="none" stroke="red" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" icon-name="users"
+                                                data-lucide="users"
+                                                class="lucide lucide-users report-box__icon text-pending">
                                                 <rect x="1" y="4" width="22" height="16"
                                                     rx="2" ry="2"></rect>
                                                 <line x1="1" y1="10" x2="23" y2="10"></line>
                                             </svg>
-                                            <div class="ml-auto">
-                                                <div class="report-box__indicator bg-danger tooltip cursor-pointer"> 2% <svg
-                                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                        icon-name="chevron-down" data-lucide="chevron-down"
-                                                        class="lucide lucide-chevron-down w-4 h-4 ml-0.5">
-                                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                                    </svg> </div>
+                                            <div class="ml-4 mr-auto">
+                                                <div class="font-semibold">Total Penduduk</div>
+                                                <div class="text-slate-500 text-xs mt-0.5">Total Population</div>
                                             </div>
+                                            <div
+                                                class="py-1 px-2 rounded-full text-sm bg-success text-white cursor-pointer font-medium">
+                                                1.370</div>
                                         </div>
-                                        <div class="text-3xl font-medium leading-8 mt-6">3.721</div>
-                                        <div class="text-base text-slate-500 mt-1">New Orders</div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-span-12 sm:col-span-6 xl:col-span-3 intro-y">
+                            <div class="col-span-12 sm:col-span-6 xl:col-span-4 intro-y">
                                 <div class="report-box zoom-in">
-                                    <div class="box p-5">
-                                        <div class="flex">
+                                    <div class="intro-y">
+                                        <div class="box h-32 px-4 py-4 mb-3 flex items-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                icon-name="monitor" data-lucide="monitor"
-                                                class="lucide lucide-monitor report-box__icon text-warning">
-                                                <rect x="2" y="3" width="20" height="14"
+                                                viewBox="0 0 24 24" fill="none" stroke="red" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" icon-name="archive"
+                                                data-lucide="archive"
+                                                class="lucide lucide-archive report-box__icon text-pending">
+                                                <rect x="1" y="4" width="22" height="16"
                                                     rx="2" ry="2"></rect>
-                                                <line x1="8" y1="21" x2="16" y2="21">
-                                                </line>
-                                                <line x1="12" y1="17" x2="12" y2="21">
-                                                </line>
+                                                <line x1="1" y1="10" x2="23" y2="10"></line>
                                             </svg>
-                                            <div class="ml-auto">
-                                                <div class="report-box__indicator bg-success tooltip cursor-pointer"> 12%
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                        icon-name="chevron-up" data-lucide="chevron-up"
-                                                        class="lucide lucide-chevron-up w-4 h-4 ml-0.5">
-                                                        <polyline points="18 15 12 9 6 15"></polyline>
-                                                    </svg>
-                                                </div>
+                                            <div class="ml-4 mr-auto">
+                                                <div class="font-semibold">Kecamatan</div>
+                                                <div class="text-slate-500 text-xs mt-0.5">
+                                                    sub-district</div>
                                             </div>
+                                            <div
+                                                class="py-1 px-2 rounded-full text-sm bg-success text-white cursor-pointer font-medium">
+                                                12</div>
                                         </div>
-                                        <div class="text-3xl font-medium leading-8 mt-6">2.149</div>
-                                        <div class="text-base text-slate-500 mt-1">Total Products</div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-span-12 sm:col-span-6 xl:col-span-3 intro-y">
+                            <div class="col-span-12 sm:col-span-6 xl:col-span-4 intro-y">
                                 <div class="report-box zoom-in">
-                                    <div class="box p-5">
-                                        <div class="flex">
+                                    <div class="intro-y">
+                                        <div class="box h-32 px-4 py-4 mb-3 flex items-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                icon-name="user" data-lucide="user"
-                                                class="lucide lucide-user report-box__icon text-success">
-                                                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                                                <circle cx="12" cy="7" r="4"></circle>
+                                                viewBox="0 0 24 24" fill="none" stroke="red" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" icon-name="archive"
+                                                data-lucide="archive"
+                                                class="lucide lucide-archive report-box__icon text-pending">
+                                                <rect x="1" y="4" width="22" height="16"
+                                                    rx="2" ry="2"></rect>
+                                                <line x1="1" y1="10" x2="23" y2="10">
+                                                </line>
                                             </svg>
-                                            <div class="ml-auto">
-                                                <div class="report-box__indicator bg-success tooltip cursor-pointer"> 22%
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                        icon-name="chevron-up" data-lucide="chevron-up"
-                                                        class="lucide lucide-chevron-up w-4 h-4 ml-0.5">
-                                                        <polyline points="18 15 12 9 6 15"></polyline>
-                                                    </svg>
-                                                </div>
+                                            <div class="ml-4 mr-auto">
+                                                <div class="font-semibold">Kelurahan/Desa</div>
+                                                <div class="text-slate-600 text-sm mt-0.5">
+                                                    village</div>
                                             </div>
+                                            <div
+                                                class="py-1 px-2 rounded-full text-sm bg-success text-white cursor-pointer font-medium">
+                                                141</div>
                                         </div>
-                                        <div class="text-3xl font-medium leading-8 mt-6">152.040</div>
-                                        <div class="text-base text-slate-500 mt-1">Unique Visitor</div>
                                     </div>
                                 </div>
                             </div>
@@ -148,54 +101,34 @@
                 </div>
             </div>
         </div>
-        <div class="intro-y flex items-center mt-8">
-            <h2 class="text-lg font-medium mr-auto">
-                Chart
-            </h2>
-        </div>
-        <div class="intro-y grid grid-cols-12 gap-6 mt-5">
-            <div class="col-span-12 lg:col-span-6">
-                <div class="intro-y box">
-                    <div
-                        class="flex flex-col sm:flex-row items-center p-5 border-b border-slate-200/60 dark:border-darkmode-400">
-                        <h2 class="font-medium text-base mr-auto">
-                            Vertical Bar Chart
-                        </h2>
-                    </div>
-                    <div id="chart" class="p-5">
-                    </div>
-                </div>
-            </div>
-        </div>
-        {{-- <div class="intro-y flex items-center mt-8">
-            <h2 class="text-lg font-medium mr-auto">
-                Chart
-            </h2>
-        </div>
-        <div class="intro-y grid grid-cols-12 gap-6 mt-5">
-            <div class="col-span-12">
-                <div class="intro-y box">
-                    <div
-                        class="flex flex-col sm:flex-row items-center p-5 border-b border-slate-200/60 dark:border-darkmode-400">
-                        <h2 class="font-medium text-base mr-auto">
-                            Vertical Bar Chart
-                        </h2>
-                    </div>
-                    <div id="vertical-bar-chart" class="p-5">
-                        <div class="preview">
-                            <div class="h-[400px]">
-                                <div id="chart"
-                                    style="display: block; box-sizing: border-box; height: 400px; width: 550.4px;">
-                                </div>
-                            </div>
+        <div class="intro-y mt-8">
+            <div class="intro-y grid grid-cols-12 gap-6 mt-5">
+                <div class="col-span-12 lg:col-span-8">
+                    <div class="intro-y box">
+                        <div
+                            class="flex flex-col sm:flex-row items-center p-5 border-b border-slate-200/60 dark:border-darkmode-400">
+                            <h2 class="font-medium text-base mr-auto">
+                                Izin Terbit
+                            </h2>
+                        </div>
+                        <div id="chart" class="p-5">
                         </div>
                     </div>
                 </div>
+                <div class="col-span-12 lg:col-span-4">
+                    <div class="intro-y box">
+                        <div
+                            class="flex flex-col sm:flex-row items-center p-5 border-b border-slate-200/60 dark:border-darkmode-400">
+                            <h2 class="font-medium text-base mr-auto">
+                                Realisasi Anggaran
+                            </h2>
+                        </div>
+                        <div id="realisasi" class="p-5">
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </div> --}}
+        </div>
     @endsection
 </x-app-layout>
-
-
-
-{{-- <script src="public/apex-charts/dist/apexcharts.min.js"></script> --}}
