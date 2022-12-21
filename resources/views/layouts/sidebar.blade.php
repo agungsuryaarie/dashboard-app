@@ -2,7 +2,7 @@
  <div class="mobile-menu md:hidden">
      <div class="mobile-menu-bar">
          <a href="" class="flex mr-auto">
-            <img alt="Midone - HTML Admin Template" class="w-6" src="dist/images/logo.svg">
+             <img alt="Midone - HTML Admin Template" class="w-6" src="dist/images/logo.svg">
          </a>
          <a href="javascript:;" class="mobile-menu-toggler"> <i data-lucide="bar-chart-2"
                  class="w-8 h-8 text-white transform -rotate-90"></i> </a>
@@ -138,12 +138,12 @@
      <nav class="side-nav">
          <a href="" class="intro-x flex items-center pl-5 pt-4 mt-3">
              <img alt="Midone - HTML Admin Template" class="w-6" src="dist/images/logo.svg">
-             <span class="hidden xl:block text-white text-lg ml-3"> Comand Center </span>
+             <span class="hidden xl:block text-white text-lg ml-3"> Dashboard-App </span>
          </a>
          <div class="side-nav__devider my-6"></div>
          <ul>
              <li>
-                 <a href="" class="side-menu">
+                 <a href="{{ route('index') }}" class="side-menu">
                      <div class="side-menu__icon"> <i data-lucide="home"></i> </div>
                      <div class="side-menu__title"> Dashboard </div>
                  </a>
@@ -158,7 +158,7 @@
                  </a>
                  <ul class="">
                      <li>
-                         <a href="side-menu-light-dashboard-overview-1.html" class="side-menu">
+                         <a href="" class="side-menu">
                              <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
                              <div class="side-menu__title"> Dashboard </div>
                          </a>

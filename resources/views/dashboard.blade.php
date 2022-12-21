@@ -35,11 +35,11 @@
                                                 <line x1="1" y1="10" x2="23" y2="10"></line>
                                             </svg>
                                             <div class="ml-4 mr-auto">
-                                                <div class="font-semibold">Total Penduduk</div>
+                                                <div class="font-semibold text-lg">Total Penduduk</div>
                                                 <div class="text-slate-500 text-xs mt-0.5">Total Population</div>
                                             </div>
                                             <div
-                                                class="py-1 px-2 rounded-full text-sm bg-success text-white cursor-pointer font-medium">
+                                                class="py-1 px-2 rounded-full text-lg bg-success text-white cursor-pointer font-medium">
                                                 1.370</div>
                                         </div>
                                     </div>
@@ -59,12 +59,12 @@
                                                 <line x1="1" y1="10" x2="23" y2="10"></line>
                                             </svg>
                                             <div class="ml-4 mr-auto">
-                                                <div class="font-semibold">Kecamatan</div>
+                                                <div class="font-semibold text-lg">Kecamatan</div>
                                                 <div class="text-slate-500 text-xs mt-0.5">
                                                     sub-district</div>
                                             </div>
                                             <div
-                                                class="py-1 px-2 rounded-full text-sm bg-success text-white cursor-pointer font-medium">
+                                                class="py-1 px-2 rounded-full text-lg bg-success text-white cursor-pointer font-medium">
                                                 12</div>
                                         </div>
                                     </div>
@@ -85,12 +85,12 @@
                                                 </line>
                                             </svg>
                                             <div class="ml-4 mr-auto">
-                                                <div class="font-semibold">Kelurahan/Desa</div>
+                                                <div class="font-semibold text-lg">Kelurahan/Desa</div>
                                                 <div class="text-slate-600 text-sm mt-0.5">
                                                     village</div>
                                             </div>
                                             <div
-                                                class="py-1 px-2 rounded-full text-sm bg-success text-white cursor-pointer font-medium">
+                                                class="py-1 px-2 rounded-full text-lg bg-success text-white cursor-pointer font-medium">
                                                 141</div>
                                         </div>
                                     </div>
@@ -107,6 +107,9 @@
                     <div class="intro-y box">
                         <div
                             class="flex flex-col sm:flex-row items-center p-5 border-b border-slate-200/60 dark:border-darkmode-400">
+                            <h2 class="font-medium text-base mr-auto">
+                                Izin Terbit
+                            </h2>
                             <h2 class="font-medium text-base mr-auto">
                                 Izin Terbit
                             </h2>
