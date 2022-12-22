@@ -143,7 +143,7 @@
          <div class="side-nav__devider my-6"></div>
          <ul>
              <li>
-                 <a href="{{ route('index') }}" class="side-menu">
+                 <a href="/" class="side-menu">
                      <div class="side-menu__icon"> <i data-lucide="home"></i> </div>
                      <div class="side-menu__title"> Dashboard </div>
                  </a>
@@ -158,7 +158,7 @@
                  </a>
                  <ul class="">
                      <li>
-                         <a href="" class="side-menu">
+                         <a href="/dashboard-perizinan" class="side-menu">
                              <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
                              <div class="side-menu__title"> Dashboard </div>
                          </a>

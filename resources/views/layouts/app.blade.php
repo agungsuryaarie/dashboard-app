@@ -24,7 +24,7 @@
     @include('layouts.sidebar')
     <div class="content">
         @include('layouts.header')
-        @yield('container')
+        {{ $slot }}
         {{-- @include('../components/dark-mode-switcher')
         @include('../components/main-color-switcher') --}}
     </div>
@@ -32,6 +32,7 @@
     @stack('scripts')
 
 
+    {{-- JS --}}
     <script src="dist/js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 
