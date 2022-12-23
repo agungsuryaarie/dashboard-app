@@ -39,7 +39,7 @@
                                         </div>
                                         <div
                                             class="py-1 px-2 rounded-full text-lg bg-success text-white cursor-pointer font-medium">
-                                            1.370</div>
+                                            443.816 </div>
                                     </div>
                                 </div>
                             </div>

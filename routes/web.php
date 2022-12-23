@@ -27,5 +27,11 @@ Route::get('/', function () {
     return view('dashboard');
 });
 Route::get('/dashboard-perizinan', function () {
-    return view('admin/perizinan/_dashboard');
+    return view('admin/perizinan/dashboard');
+});
+Route::get('/dashboard-pajak', function () {
+    return view('admin/pajak/dashboard');
+});
+Route::get('/dashboard-sipande', function () {
+    return view('admin/pajak/dashboard');
 });
