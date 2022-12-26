@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\SibisaController;
 // use App\Http\Controllers\DarkModeController;
 // use App\Http\Controllers\ColorSchemeController;
 
@@ -21,4 +22,6 @@ use App\Http\Controllers\HomeController;
 // Route::get('dark-mode-switcher', [DarkModeController::class, 'switch'])->name('dark-mode-switcher');
 // Route::get('color-scheme-switcher/{color_scheme}', [ColorSchemeController::class, 'switch'])->name('color-scheme-switcher');
 
-Route::resource('/', HomeController::class);
+// Route::resource('/', HomeController::class);
+
+Route::get('/', [SibisaController::class, 'index']);

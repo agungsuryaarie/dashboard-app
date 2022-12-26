@@ -47,8 +47,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="text-3xl font-medium leading-8 mt-6">4.710</div>
-                                        <div class="text-base text-slate-500 mt-1">Item Sales</div>
+                                        <div class="text-3xl font-medium leading-8 mt-6">{{ number_format($penduduk) }}
+                                        </div>
+                                        <div class="text-base text-slate-500 mt-1">Penduduk</div>
                                     </div>
                                 </div>
                             </div>
@@ -76,8 +77,9 @@
                                                     </svg> </div>
                                             </div>
                                         </div>
-                                        <div class="text-3xl font-medium leading-8 mt-6">3.721</div>
-                                        <div class="text-base text-slate-500 mt-1">New Orders</div>
+                                        <div class="text-3xl font-medium leading-8 mt-6">{{ number_format($kecamatan) }}
+                                        </div>
+                                        <div class="text-base text-slate-500 mt-1">Kecamatan</div>
                                     </div>
                                 </div>
                             </div>
@@ -109,8 +111,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="text-3xl font-medium leading-8 mt-6">2.149</div>
-                                        <div class="text-base text-slate-500 mt-1">Total Products</div>
+                                        <div class="text-3xl font-medium leading-8 mt-6">{{ $kelurahan }}</div>
+                                        <div class="text-base text-slate-500 mt-1">Desa/Kelurahan</div>
                                     </div>
                                 </div>
                             </div>
@@ -154,12 +156,12 @@
             </h2>
         </div>
         <div class="intro-y grid grid-cols-12 gap-6 mt-5">
-            <div class="col-span-12 lg:col-span-6">
+            <div class="col-span-12">
                 <div class="intro-y box">
                     <div
                         class="flex flex-col sm:flex-row items-center p-5 border-b border-slate-200/60 dark:border-darkmode-400">
                         <h2 class="font-medium text-base mr-auto">
-                            Vertical Bar Chart
+                            Penduduk Per Kecamatan
                         </h2>
                     </div>
                     <div id="chart" class="p-5">
@@ -196,6 +198,47 @@
     @endsection
 </x-app-layout>
 
-
-
+@stack('scripts')
+<script src="dist/js/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script>
+    var options = {
+        series: [{
+            data: @json($kecamatanpenduduk)
+        }],
+        chart: {
+            height: 350,
+            type: 'bar',
+            events: {
+                click: function(chart, w, e) {
+                    // console.log(chart, w, e)
+                }
+            }
+        },
+        // colors: colors,
+        plotOptions: {
+            bar: {
+                columnWidth: '45%',
+                distributed: true,
+            }
+        },
+        dataLabels: {
+            enabled: false
+        },
+        legend: {
+            show: false
+        },
+        xaxis: {
+            categories: @json($namakecamatan),
+            labels: {
+                style: {
+                    // colors: colors,
+                    fontSize: '12px'
+                }
+            }
+        }
+    };
+    var chart = new ApexCharts(document.querySelector("#chart"), options);
+    chart.render();
+</script>
 {{-- <script src="public/apex-charts/dist/apexcharts.min.js"></script> --}}
