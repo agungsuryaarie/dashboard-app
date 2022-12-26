@@ -25,3 +25,13 @@ use App\Http\Controllers\SibisaController;
 // Route::resource('/', HomeController::class);
 
 Route::get('/', [SibisaController::class, 'index']);
+
+Route::get('/dashboard-perizinan', function () {
+    return view('admin/perizinan/dashboard');
+});
+Route::get('/dashboard-pajak', function () {
+    return view('admin/pajak/dashboard');
+});
+Route::get('/dashboard-sipande', function () {
+    return view('admin/pajak/dashboard');
+});
