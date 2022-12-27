@@ -178,7 +178,7 @@
 <script>
     var options = {
         series: [{
-            data: [12, 45, 67, 33, 21, 21, 34, 22, 76, 45, 66, 54]
+            data: @json($wargaKecamatan)
         }],
         chart: {
             height: 350,

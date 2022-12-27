@@ -24,6 +24,9 @@ class DasawismaController extends Controller
         $kecamatanName = Http::get('https://dasawisma.batubarakab.go.id/api/routes-api.php?r=nama-kecamatan');
         $namaKecamatan = $kecamatanName->json();
 
-        return view('dasawisma-dashboard', compact('warga', 'keluarga', 'krt', 'dasawisma', 'namaKecamatan'));
+        $kecamatanWarga = Http::get('https://dasawisma.batubarakab.go.id/api/routes-api.php?r=kecamatan-warga');
+        $wargaKecamatan = $kecamatanWarga->json();
+
+        return view('dasawisma-dashboard', compact('warga', 'keluarga', 'krt', 'dasawisma', 'namaKecamatan', 'wargaKecamatan'));
     }
 }
