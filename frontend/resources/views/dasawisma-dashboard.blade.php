@@ -7,7 +7,7 @@
                     <div class="col-span-12 mt-8">
                         <div class="intro-y flex items-center h-10">
                             <h2 class="text-lg font-medium truncate mr-5">
-                                Data People
+                                Data Dasawisma Kabupaten Batu Bara
                             </h2>
                             <a href="" class="ml-auto flex items-center text-primary"> <svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -47,9 +47,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="text-3xl font-medium leading-8 mt-6">121212
+                                        <div class="text-3xl font-medium leading-8 mt-6">{{ number_format($warga) }}
                                         </div>
-                                        <div class="text-base text-slate-500 mt-1">Peolpe</div>
+                                        <div class="text-base text-slate-500 mt-1">Penduduk</div>
                                     </div>
                                 </div>
                             </div>
@@ -77,9 +77,9 @@
                                                     </svg> </div>
                                             </div>
                                         </div>
-                                        <div class="text-3xl font-medium leading-8 mt-6">1212
+                                        <div class="text-3xl font-medium leading-8 mt-6">{{ number_format($keluarga) }}
                                         </div>
-                                        <div class="text-base text-slate-500 mt-1">University</div>
+                                        <div class="text-base text-slate-500 mt-1">Keluarga</div>
                                     </div>
                                 </div>
                             </div>
@@ -111,8 +111,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="text-3xl font-medium leading-8 mt-6">141</div>
-                                        <div class="text-base text-slate-500 mt-1">City</div>
+                                        <div class="text-3xl font-medium leading-8 mt-6">{{ number_format($krt) }}</div>
+                                        <div class="text-base text-slate-500 mt-1">Kepala Rumah Tangga</div>
                                     </div>
                                 </div>
                             </div>
@@ -140,8 +140,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="text-3xl font-medium leading-8 mt-6">152.040</div>
-                                        <div class="text-base text-slate-500 mt-1">Unique Visitor</div>
+                                        <div class="text-3xl font-medium leading-8 mt-6">{{ number_format($dasawisma) }}
+                                        </div>
+                                        <div class="text-base text-slate-500 mt-1">Kelompok Dasawisma</div>
                                     </div>
                                 </div>
                             </div>
@@ -161,7 +162,7 @@
                     <div
                         class="flex flex-col sm:flex-row items-center p-5 border-b border-slate-200/60 dark:border-darkmode-400">
                         <h2 class="font-medium text-base mr-auto">
-                            People
+                            Penduduk Per Kecamatan
                         </h2>
                     </div>
                     <div id="chart" class="p-5">
@@ -171,14 +172,13 @@
         </div>
     @endsection
 </x-app-layout>
-
 @stack('scripts')
 <script src="dist/js/app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 <script>
     var options = {
         series: [{
-            data: [14, 34, 23, 65, 78, 43, 15]
+            data: [12, 45, 67, 33, 21, 21, 34, 22, 76, 45, 66, 54]
         }],
         chart: {
             height: 350,
@@ -203,7 +203,7 @@
             show: false
         },
         xaxis: {
-            categories: ["Indonesia", "Malaysia", "Singapore", "Thailand", "Australia", "Korea Selatan", "Jepang"],
+            categories: @json($namaKecamatan),
             labels: {
                 style: {
                     // colors: colors,

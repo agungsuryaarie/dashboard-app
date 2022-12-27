@@ -7,7 +7,7 @@
                     <div class="col-span-12 mt-8">
                         <div class="intro-y flex items-center h-10">
                             <h2 class="text-lg font-medium truncate mr-5">
-                                Data People
+                                Data Penduduk Kabupaten Batu Bara
                             </h2>
                             <a href="" class="ml-auto flex items-center text-primary"> <svg
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -47,9 +47,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="text-3xl font-medium leading-8 mt-6">121212
+                                        <div class="text-3xl font-medium leading-8 mt-6">{{ number_format($penduduk) }}
                                         </div>
-                                        <div class="text-base text-slate-500 mt-1">Peolpe</div>
+                                        <div class="text-base text-slate-500 mt-1">Penduduk</div>
                                     </div>
                                 </div>
                             </div>
@@ -77,9 +77,9 @@
                                                     </svg> </div>
                                             </div>
                                         </div>
-                                        <div class="text-3xl font-medium leading-8 mt-6">1212
+                                        <div class="text-3xl font-medium leading-8 mt-6">{{ number_format($kecamatan) }}
                                         </div>
-                                        <div class="text-base text-slate-500 mt-1">University</div>
+                                        <div class="text-base text-slate-500 mt-1">Kecamatan</div>
                                     </div>
                                 </div>
                             </div>
@@ -111,8 +111,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="text-3xl font-medium leading-8 mt-6">141</div>
-                                        <div class="text-base text-slate-500 mt-1">City</div>
+                                        <div class="text-3xl font-medium leading-8 mt-6">{{ $kelurahan }}</div>
+                                        <div class="text-base text-slate-500 mt-1">Desa/Kelurahan</div>
                                     </div>
                                 </div>
                             </div>
@@ -161,7 +161,7 @@
                     <div
                         class="flex flex-col sm:flex-row items-center p-5 border-b border-slate-200/60 dark:border-darkmode-400">
                         <h2 class="font-medium text-base mr-auto">
-                            People
+                            Penduduk Per Kecamatan
                         </h2>
                     </div>
                     <div id="chart" class="p-5">
@@ -169,6 +169,32 @@
                 </div>
             </div>
         </div>
+        {{-- <div class="intro-y flex items-center mt-8">
+            <h2 class="text-lg font-medium mr-auto">
+                Chart
+            </h2>
+        </div>
+        <div class="intro-y grid grid-cols-12 gap-6 mt-5">
+            <div class="col-span-12">
+                <div class="intro-y box">
+                    <div
+                        class="flex flex-col sm:flex-row items-center p-5 border-b border-slate-200/60 dark:border-darkmode-400">
+                        <h2 class="font-medium text-base mr-auto">
+                            Vertical Bar Chart
+                        </h2>
+                    </div>
+                    <div id="vertical-bar-chart" class="p-5">
+                        <div class="preview">
+                            <div class="h-[400px]">
+                                <div id="chart"
+                                    style="display: block; box-sizing: border-box; height: 400px; width: 550.4px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> --}}
     @endsection
 </x-app-layout>
 
@@ -178,7 +204,7 @@
 <script>
     var options = {
         series: [{
-            data: [14, 34, 23, 65, 78, 43, 15]
+            data: @json($kecamatanpenduduk)
         }],
         chart: {
             height: 350,
@@ -203,7 +229,7 @@
             show: false
         },
         xaxis: {
-            categories: ["Indonesia", "Malaysia", "Singapore", "Thailand", "Australia", "Korea Selatan", "Jepang"],
+            categories: @json($namakecamatan),
             labels: {
                 style: {
                     // colors: colors,
@@ -215,3 +241,4 @@
     var chart = new ApexCharts(document.querySelector("#chart"), options);
     chart.render();
 </script>
+{{-- <script src="public/apex-charts/dist/apexcharts.min.js"></script> --}}

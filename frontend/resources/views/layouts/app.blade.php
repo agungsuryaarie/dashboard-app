@@ -12,9 +12,9 @@
     <meta name="keywords"
         content="admin template, Tinker Admin Template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="LEFT4CODE">
-    <title>Dashboard - Midone - Tailwind HTML Admin Template</title>
+    <title>Dashboard Kabupaten Batu Bara</title>
     <!-- BEGIN: CSS Assets-->
-    <link rel="stylesheet" href="dist/css/app.css"  />
+    <link rel="stylesheet" href="dist/css/app.css" />
 
     @vite(['resource/css/app.css', 'resource/js/app.js'])
     @stack('style')
@@ -30,4 +30,5 @@
     </div>
     </div>
 </body>
+
 </html>

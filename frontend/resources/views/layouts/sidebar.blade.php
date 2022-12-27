@@ -245,21 +245,9 @@
                  </a>
                  <ul class="">
                      <li>
-                         <a href="side-menu-light-categories.html" class="side-menu">
+                         <a href="{{ route('dasawisma') }}" class="side-menu">
                              <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
                              <div class="side-menu__title"> Dashboard </div>
-                         </a>
-                     </li>
-                     <li>
-                         <a href="side-menu-light-add-product.html" class="side-menu">
-                             <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
-                             <div class="side-menu__title"> Empty </div>
-                         </a>
-                     </li>
-                     <li>
-                         <a href="side-menu-light-reviews.html" class="side-menu">
-                             <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
-                             <div class="side-menu__title"> Empty </div>
                          </a>
                      </li>
                  </ul>
@@ -274,7 +262,7 @@
                  </a>
                  <ul class="">
                      <li>
-                         <a href="side-menu-light-categories.html" class="side-menu">
+                         <a href="{{ route('sibisa') }}" class="side-menu">
                              <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
                              <div class="side-menu__title"> Dashboard </div>
                          </a>

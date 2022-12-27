@@ -25,7 +25,7 @@ class SibisaController extends Controller
         $peopleKecamatan = Http::get('http://localhost:9000/api/penduduk/penduduk_kecamatan');
         $kecamatanpenduduk = $peopleKecamatan->json();
 
-        return view('dashboard', compact('penduduk', 'kecamatan', 'kelurahan', 'namakecamatan', 'kecamatanpenduduk'));
+        return view('sibisa-dashboard', compact('penduduk', 'kecamatan', 'kelurahan', 'namakecamatan', 'kecamatanpenduduk'));
         // dd($penduduk);
     }
 }
