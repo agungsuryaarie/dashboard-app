@@ -117,6 +117,48 @@
                     <td>Rp. 13.894.611.047.718.00</td>
                     <td>77.90%</td>
                 </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Dinas sosial, Pemberdayaan Perempuan dan Perlindungan anak</td>
+                    <td>Rp. 17.894.611.047.718.00</td>
+                    <td>Rp. 13.894.611.047.718.00</td>
+                    <td>77.90%</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Dinas sosial, Pemberdayaan Perempuan dan Perlindungan anak</td>
+                    <td>Rp. 17.894.611.047.718.00</td>
+                    <td>Rp. 13.894.611.047.718.00</td>
+                    <td>77.90%</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Dinas sosial, Pemberdayaan Perempuan dan Perlindungan anak</td>
+                    <td>Rp. 17.894.611.047.718.00</td>
+                    <td>Rp. 13.894.611.047.718.00</td>
+                    <td>77.90%</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Dinas sosial, Pemberdayaan Perempuan dan Perlindungan anak</td>
+                    <td>Rp. 17.894.611.047.718.00</td>
+                    <td>Rp. 13.894.611.047.718.00</td>
+                    <td>77.90%</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Dinas sosial, Pemberdayaan Perempuan dan Perlindungan anak</td>
+                    <td>Rp. 17.894.611.047.718.00</td>
+                    <td>Rp. 13.894.611.047.718.00</td>
+                    <td>77.90%</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Dinas sosial, Pemberdayaan Perempuan dan Perlindungan anak</td>
+                    <td>Rp. 17.894.611.047.718.00</td>
+                    <td>Rp. 13.894.611.047.718.00</td>
+                    <td>77.90%</td>
+                </tr>
             </tbody>
         </table>
     </x-table>
@@ -142,7 +184,7 @@
                 },
             }
         },
-        colors: ['#00988b'],
+        colors: ['#90EE90', '#F0E68C', '#4682B4', '#F08080', '#20B2AA'],
         dataLabels: {
             enabled: true,
             textAnchor: 'start',
@@ -166,18 +208,12 @@
         },
         yaxis: {
             labels: {
-                show: true
+                show: false
             }
         },
-        // title: {
-        //     text: 'Custom DataLabels',
-        //     align: 'center',
-        //     floating: true
-        // },
-        // subtitle: {
-        //     text: 'Category Names as DataLabels inside bars',
-        //     align: 'center',
-        // },
+        legend: {
+            show: false
+        },
         tooltip: {
             theme: 'dark',
             x: {
