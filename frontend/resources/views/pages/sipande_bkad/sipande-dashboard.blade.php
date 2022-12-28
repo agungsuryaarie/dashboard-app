@@ -3,7 +3,6 @@
         <div class="col-span-12">
             <x-profile-bkad></x-profile-bkad>
             <div class="grid grid-cols-12 gap-6">
-                <!-- BEGIN: General Report -->
                 <div class="col-span-12 mt-8">
                     <div class="intro-y flex items-center h-10">
                         <h2 class="text-lg font-medium truncate mr-5">
@@ -71,7 +70,7 @@
     </div>
 
     <x-table>
-        <table class="table table-bordered table-hover" id="myTable">
+        <table class="table table-bordered table-hover mt-8" id="myTable">
             <thead>
                 <tr>
                     <th>Peringkat</th>
@@ -168,64 +167,26 @@
 <script>
     var options = {
         series: [{
-            data: [400, 430, 448, 470, 540, ]
+            data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380]
         }],
         chart: {
             type: 'bar',
-            height: 280
+            height: 450
         },
         plotOptions: {
             bar: {
-                barHeight: '100%',
-                distributed: true,
+                borderRadius: 4,
                 horizontal: true,
-                dataLabels: {
-                    position: 'bottom'
-                },
             }
         },
-        colors: ['#90EE90', '#F0E68C', '#4682B4', '#F08080', '#20B2AA'],
+        colors: ['#B22222'],
         dataLabels: {
-            enabled: true,
-            textAnchor: 'start',
-            style: {
-                colors: ['#fff']
-            },
-            formatter: function(val, opt) {
-                return opt.w.globals.labels[opt.dataPointIndex] + ":  " + val
-            },
-            offsetX: 0,
-            dropShadow: {
-                enabled: true
-            }
-        },
-        stroke: {
-            width: 1,
-            colors: ['#fff']
+            enabled: false
         },
         xaxis: {
-            categories: ['Disdukcapil', 'Diskopukm', 'Diskominfo', 'Dinkesp3a', 'Dinsosp3a'],
-        },
-        yaxis: {
-            labels: {
-                show: false
-            }
-        },
-        legend: {
-            show: false
-        },
-        tooltip: {
-            theme: 'dark',
-            x: {
-                show: false
-            },
-            y: {
-                title: {
-                    formatter: function() {
-                        return ''
-                    }
-                }
-            }
+            categories: ['South Korea', 'Canada', 'United Kingdom', 'Netherlands', 'Italy', 'France', 'Japan',
+                'United States', 'China', 'Germany'
+            ],
         }
     };
 

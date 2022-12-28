@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /*
  |--------------------------------------------------------------------------
  | TailwindCSS Directives
@@ -2742,7 +2746,7 @@ select{
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 .box {
-    box-shadow: 0px 3px 20px #0000000b;
+    box-shadow: 0px 3px 20px #b9bdbe;
     position: relative;
     border-radius: 0.375rem;
     border-color: transparent;
@@ -10260,7 +10264,7 @@ html body{
 .report-box:before {
         content: "";
         width: 90%;
-        box-shadow: 0px 3px 20px #0000000b;
+        box-shadow: 0px 3px 20px #b9bdbe;
         position: absolute;
         left: 0px;
         right: 0px;
