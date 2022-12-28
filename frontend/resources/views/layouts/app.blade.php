@@ -16,6 +16,9 @@
     <!-- BEGIN: CSS Assets-->
     <link rel="stylesheet" href="dist/css/app.css" />
 
+    <!-- Datatables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
+
     @vite(['resource/css/app.css', 'resource/js/app.js'])
     @stack('style')
 </head>
@@ -24,11 +27,25 @@
     @include('layouts.sidebar')
     <div class="content">
         @include('layouts.header')
-        @yield('container')
-        {{-- @include('../components/dark-mode-switcher')
-        @include('../components/main-color-switcher') --}}
+        {{ $slot }}
+
     </div>
     </div>
+    @stack('scripts')
+    <script src="dist/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <!-- DataTables -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#myTable').DataTable();
+        });
+    </script>
+
 </body>
 
 </html>

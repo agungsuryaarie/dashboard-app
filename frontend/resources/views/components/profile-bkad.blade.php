@@ -3,7 +3,6 @@
         Profile Layout
     </h2>
 </div>
-<!-- BEGIN: Profile Info -->
 <div class="intro-y box px-5 pt-5 mt-5">
     <div class="flex flex-col lg:flex-row border-b border-slate-200/60 dark:border-darkmode-400 pb-5 -mx-5">
         <div class="flex flex-1 px-5 items-center justify-center lg:justify-start">
@@ -11,9 +10,9 @@
                 <img alt="Midone - HTML Admin Template" class="rounded-full" src="dist/images/logobb2.png">
             </div>
             <div class="ml-5">
-                <div class="w-24 sm:w-40 truncate sm:whitespace-normal font-medium text-lg">DPM-PTSP
+                <div class="w-24 sm:w-40 truncate sm:whitespace-normal font-medium text-lg">BKAD
                 </div>
-                <div class="text-slate-500">Pemerintah Kabupaten batu Bara</div>
+                <div class="text-slate-500">Pemerintah Kabupaten Batu Bara</div>
             </div>
         </div>
         <div
@@ -21,11 +20,11 @@
             <div class="font-medium text-center lg:text-left lg:mt-3">Contact Details</div>
             <div class="flex flex-col justify-center items-center lg:items-start mt-4">
                 <div class="truncate sm:whitespace-normal flex items-center"> <i data-lucide="mail"
-                        class="w-4 h-4 mr-2"></i> dpmptsp@batubarakab.go.id </div>
+                        class="w-4 h-4 mr-2"></i> bkad@batubarakab.go.id </div>
                 <div class="truncate sm:whitespace-normal flex items-center mt-3"> <i data-lucide="smartphone"
                         class="w-4 h-4 mr-2"></i> - </div>
                 <div class="truncate sm:whitespace-normal flex items-center mt-3"> <i data-lucide="globe"
-                        class="w-4 h-4 mr-2"></i>www.dpm-ptsp.batubarakab.go.id </div>
+                        class="w-4 h-4 mr-2"></i>www.bkad.batubarakab.go.id </div>
             </div>
         </div>
     </div>

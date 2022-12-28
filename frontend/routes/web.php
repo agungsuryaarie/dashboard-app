@@ -28,3 +28,13 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('sibisa-dashboard', [SibisaController::class, 'index'])->name('sibisa');
 // Data Aplikasi Dasawisma
 Route::get('dasawisma-dashboard', [DasawismaController::class, 'index'])->name('dasawisma');
+
+Route::get('/perizinan-dashboard', function () {
+    return view('pages/perizinan/perizinan-dashboard');
+});
+Route::get('/pajak-dashboard', function () {
+    return view('pages/pajak/pajak-dashboard');
+});
+Route::get('/sipande-dashboard', function () {
+    return view('pages/sipande_bkad/sipande-dashboard');
+});

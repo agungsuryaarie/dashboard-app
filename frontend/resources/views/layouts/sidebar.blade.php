@@ -158,7 +158,7 @@
                  </a>
                  <ul class="">
                      <li>
-                         <a href="/dashboard-perizinan" class="side-menu">
+                         <a href="/perizinan-dashboard" class="side-menu">
                              <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
                              <div class="side-menu__title"> Dashboard </div>
                          </a>
@@ -187,7 +187,7 @@
                  </a>
                  <ul class="">
                      <li>
-                         <a href="/dashboard-pajak" class="side-menu">
+                         <a href="/pajak-dashboard" class="side-menu">
                              <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
                              <div class="side-menu__title"> Dashboard </div>
                          </a>
@@ -270,7 +270,7 @@
                  </ul>
              </li>
              <li>
-                 <a href="javascript:;" class="side-menu">
+                 <a href="#" class="side-menu">
                      <div class="side-menu__icon"> <i data-lucide="git-merge"></i></div>
                      <div class="side-menu__title">
                          SiPande BKAD
@@ -279,7 +279,7 @@
                  </a>
                  <ul class="">
                      <li>
-                         <a href="side-menu-light-categories.html" class="side-menu">
+                         <a href="/sipande-dashboard" class="side-menu">
                              <div class="side-menu__icon"> <i data-lucide="activity"></i> </div>
                              <div class="side-menu__title"> Dashboard </div>
                          </a>
