@@ -167,6 +167,7 @@
 <script>
     var options = {
         series: [{
+            name: "Jumlah",
             data: @json($wargaKecamatan)
         }],
         chart: {
@@ -207,6 +208,7 @@
 <script>
     var options = {
         series: [{
+            name: "Jumlah",
             data: @json($keluargaKecamatan)
         }],
         chart: {
@@ -243,6 +245,7 @@
 <script>
     var options = {
         series: [{
+            name: "Jumlah",
             data: @json($krtKecamatan)
         }],
         chart: {
@@ -279,6 +282,7 @@
 <script>
     var options = {
         series: [{
+            name: "Jumlah",
             data: @json($dasawismaKecamatan)
         }],
         chart: {
