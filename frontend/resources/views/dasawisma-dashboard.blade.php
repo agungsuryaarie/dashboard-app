@@ -27,29 +27,15 @@
                                         <div class="flex">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" icon-name="shopping-cart"
-                                                data-lucide="shopping-cart"
-                                                class="lucide lucide-shopping-cart report-box__icon text-primary">
-                                                <circle cx="9" cy="21" r="1"></circle>
-                                                <circle cx="20" cy="21" r="1"></circle>
-                                                <path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6">
-                                                </path>
+                                                stroke-linecap="round" stroke-linejoin="round" icon-name="user"
+                                                data-lucide="user" class="lucide lucide-user report-box__icon text-success">
+                                                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                                <circle cx="12" cy="7" r="4"></circle>
                                             </svg>
-                                            <div class="ml-auto">
-                                                <div class="report-box__indicator bg-success tooltip cursor-pointer"> 33%
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                        icon-name="chevron-up" data-lucide="chevron-up"
-                                                        class="lucide lucide-chevron-up w-4 h-4 ml-0.5">
-                                                        <polyline points="18 15 12 9 6 15"></polyline>
-                                                    </svg>
-                                                </div>
-                                            </div>
                                         </div>
                                         <div class="text-3xl font-medium leading-8 mt-6">{{ number_format($warga) }}
                                         </div>
-                                        <div class="text-base text-slate-500 mt-1">Penduduk</div>
+                                        <div class="text-base text-slate-500 mt-1">Warga</div>
                                     </div>
                                 </div>
                             </div>
@@ -59,23 +45,11 @@
                                         <div class="flex">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" icon-name="credit-card"
-                                                data-lucide="credit-card"
-                                                class="lucide lucide-credit-card report-box__icon text-pending">
-                                                <rect x="1" y="4" width="22" height="16"
-                                                    rx="2" ry="2"></rect>
-                                                <line x1="1" y1="10" x2="23" y2="10"></line>
+                                                stroke-linecap="round" stroke-linejoin="round" icon-name="user"
+                                                data-lucide="user" class="lucide lucide-user report-box__icon text-success">
+                                                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                                <circle cx="12" cy="7" r="4"></circle>
                                             </svg>
-                                            <div class="ml-auto">
-                                                <div class="report-box__indicator bg-danger tooltip cursor-pointer"> 2% <svg
-                                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                        icon-name="chevron-down" data-lucide="chevron-down"
-                                                        class="lucide lucide-chevron-down w-4 h-4 ml-0.5">
-                                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                                    </svg> </div>
-                                            </div>
                                         </div>
                                         <div class="text-3xl font-medium leading-8 mt-6">{{ number_format($keluarga) }}
                                         </div>
@@ -88,28 +62,12 @@
                                     <div class="box p-5">
                                         <div class="flex">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                icon-name="monitor" data-lucide="monitor"
-                                                class="lucide lucide-monitor report-box__icon text-warning">
-                                                <rect x="2" y="3" width="20" height="14"
-                                                    rx="2" ry="2"></rect>
-                                                <line x1="8" y1="21" x2="16" y2="21">
-                                                </line>
-                                                <line x1="12" y1="17" x2="12" y2="21">
-                                                </line>
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" icon-name="user"
+                                                data-lucide="user" class="lucide lucide-user report-box__icon text-success">
+                                                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                                <circle cx="12" cy="7" r="4"></circle>
                                             </svg>
-                                            <div class="ml-auto">
-                                                <div class="report-box__indicator bg-success tooltip cursor-pointer"> 12%
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                        icon-name="chevron-up" data-lucide="chevron-up"
-                                                        class="lucide lucide-chevron-up w-4 h-4 ml-0.5">
-                                                        <polyline points="18 15 12 9 6 15"></polyline>
-                                                    </svg>
-                                                </div>
-                                            </div>
                                         </div>
                                         <div class="text-3xl font-medium leading-8 mt-6">{{ number_format($krt) }}</div>
                                         <div class="text-base text-slate-500 mt-1">Kepala Rumah Tangga</div>
@@ -121,24 +79,13 @@
                                     <div class="box p-5">
                                         <div class="flex">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                icon-name="user" data-lucide="user"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" icon-name="user"
+                                                data-lucide="user"
                                                 class="lucide lucide-user report-box__icon text-success">
                                                 <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
                                                 <circle cx="12" cy="7" r="4"></circle>
                                             </svg>
-                                            <div class="ml-auto">
-                                                <div class="report-box__indicator bg-success tooltip cursor-pointer"> 22%
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                        icon-name="chevron-up" data-lucide="chevron-up"
-                                                        class="lucide lucide-chevron-up w-4 h-4 ml-0.5">
-                                                        <polyline points="18 15 12 9 6 15"></polyline>
-                                                    </svg>
-                                                </div>
-                                            </div>
                                         </div>
                                         <div class="text-3xl font-medium leading-8 mt-6">{{ number_format($dasawisma) }}
                                         </div>
@@ -153,7 +100,7 @@
         </div>
         <div class="intro-y flex items-center mt-8">
             <h2 class="text-lg font-medium mr-auto">
-                Chart
+                Grafik
             </h2>
         </div>
         <div class="intro-y grid grid-cols-12 gap-6 mt-5">
@@ -162,10 +109,52 @@
                     <div
                         class="flex flex-col sm:flex-row items-center p-5 border-b border-slate-200/60 dark:border-darkmode-400">
                         <h2 class="font-medium text-base mr-auto">
-                            Penduduk Per Kecamatan
+                            Warga Per Kecamatan
                         </h2>
                     </div>
-                    <div id="chart" class="p-5">
+                    <div id="chart-warga" class="p-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="intro-y grid grid-cols-12 gap-6 mt-5">
+            <div class="col-span-12">
+                <div class="intro-y box">
+                    <div
+                        class="flex flex-col sm:flex-row items-center p-5 border-b border-slate-200/60 dark:border-darkmode-400">
+                        <h2 class="font-medium text-base mr-auto">
+                            Keluarga Per Kecamatan
+                        </h2>
+                    </div>
+                    <div id="chart-keluarga" class="p-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="intro-y grid grid-cols-12 gap-6 mt-5">
+            <div class="col-span-12">
+                <div class="intro-y box">
+                    <div
+                        class="flex flex-col sm:flex-row items-center p-5 border-b border-slate-200/60 dark:border-darkmode-400">
+                        <h2 class="font-medium text-base mr-auto">
+                            Kepala Rumah Tangga Per Kecamatan
+                        </h2>
+                    </div>
+                    <div id="chart-krt" class="p-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="intro-y grid grid-cols-12 gap-6 mt-5">
+            <div class="col-span-12">
+                <div class="intro-y box">
+                    <div
+                        class="flex flex-col sm:flex-row items-center p-5 border-b border-slate-200/60 dark:border-darkmode-400">
+                        <h2 class="font-medium text-base mr-auto">
+                            Kelompok Dasawisma Per Kecamatan
+                        </h2>
+                    </div>
+                    <div id="chart-dasawisma" class="p-5">
                     </div>
                 </div>
             </div>
@@ -212,6 +201,114 @@
             }
         }
     };
-    var chart = new ApexCharts(document.querySelector("#chart"), options);
+    var chart = new ApexCharts(document.querySelector("#chart-warga"), options);
+    chart.render();
+</script>
+<script>
+    var options = {
+        series: [{
+            data: @json($keluargaKecamatan)
+        }],
+        chart: {
+            height: 350,
+            type: 'bar',
+            events: {
+                click: function(chart, w, e) {}
+            }
+        },
+        plotOptions: {
+            bar: {
+                columnWidth: '45%',
+                distributed: true,
+            }
+        },
+        dataLabels: {
+            enabled: false
+        },
+        legend: {
+            show: false
+        },
+        xaxis: {
+            categories: @json($namaKecamatan),
+            labels: {
+                style: {
+                    fontSize: '12px'
+                }
+            }
+        }
+    };
+    var chart = new ApexCharts(document.querySelector("#chart-keluarga"), options);
+    chart.render();
+</script>
+<script>
+    var options = {
+        series: [{
+            data: @json($krtKecamatan)
+        }],
+        chart: {
+            height: 350,
+            type: 'bar',
+            events: {
+                click: function(chart, w, e) {}
+            }
+        },
+        plotOptions: {
+            bar: {
+                columnWidth: '45%',
+                distributed: true,
+            }
+        },
+        dataLabels: {
+            enabled: false
+        },
+        legend: {
+            show: false
+        },
+        xaxis: {
+            categories: @json($namaKecamatan),
+            labels: {
+                style: {
+                    fontSize: '12px'
+                }
+            }
+        }
+    };
+    var chart = new ApexCharts(document.querySelector("#chart-krt"), options);
+    chart.render();
+</script>
+<script>
+    var options = {
+        series: [{
+            data: @json($dasawismaKecamatan)
+        }],
+        chart: {
+            height: 350,
+            type: 'bar',
+            events: {
+                click: function(chart, w, e) {}
+            }
+        },
+        plotOptions: {
+            bar: {
+                columnWidth: '45%',
+                distributed: true,
+            }
+        },
+        dataLabels: {
+            enabled: false
+        },
+        legend: {
+            show: false
+        },
+        xaxis: {
+            categories: @json($namaKecamatan),
+            labels: {
+                style: {
+                    fontSize: '12px'
+                }
+            }
+        }
+    };
+    var chart = new ApexCharts(document.querySelector("#chart-dasawisma"), options);
     chart.render();
 </script>
